@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aARzUHizhsk=",
+  "dgSpecHash": "J8m3tu3+msc=",
   "success": true,
-  "projectFilePath": "S:\\USERS\\52-02\\Филиппов Захар Геннадьевич\\Practice\\AirStore\\AirStore\\AirStore.csproj",
+  "projectFilePath": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\AirStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\10220468\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\10220468\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
