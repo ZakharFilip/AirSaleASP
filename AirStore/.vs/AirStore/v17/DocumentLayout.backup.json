@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|solutionrelative:airstore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Migrations\\20250311091842_GoodFirsMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AirStore\\Migrations\\20250311091842_GoodFirsMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|solutionrelative:airstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|solutionrelative:airstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|solutionrelative:airstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|solutionrelative:airstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\controllers\\superbusketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|solutionrelative:airstore\\controllers\\superbusketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\airstore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|solutionrelative:airstore\\airstore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|solutionrelative:airstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\migrations\\20250311081819_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|solutionrelative:airstore\\migrations\\20250311081819_firstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|solutionrelative:airstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Migrations\\20250312070226_12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AirStore\\Migrations\\20250312070226_12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,108 +34,85 @@
       "DocumentGroups": [
         {
           "DockedHeight": 295,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "AirStore\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "AirStore\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T09:21:57.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20250311091842_GoodFirsMigration.cs",
-              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Migrations\\20250311091842_GoodFirsMigration.cs",
-              "RelativeDocumentMoniker": "AirStore\\Migrations\\20250311091842_GoodFirsMigration.cs",
-              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Migrations\\20250311091842_GoodFirsMigration.cs",
-              "RelativeToolTip": "AirStore\\Migrations\\20250311091842_GoodFirsMigration.cs",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AirStore\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AirStore\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T09:18:42.984Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-12T07:49:19.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\appsettings.json",
-              "RelativeDocumentMoniker": "AirStore\\appsettings.json",
-              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\appsettings.json",
-              "RelativeToolTip": "AirStore\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-11T09:15:57.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "AirStore\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "AirStore\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T08:56:24.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Program.cs",
-              "RelativeDocumentMoniker": "AirStore\\Program.cs",
-              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Program.cs",
-              "RelativeToolTip": "AirStore\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T08:26:10.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "SuperBusketsController.cs",
               "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Controllers\\SuperBusketsController.cs",
               "RelativeDocumentMoniker": "AirStore\\Controllers\\SuperBusketsController.cs",
               "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Controllers\\SuperBusketsController.cs",
               "RelativeToolTip": "AirStore\\Controllers\\SuperBusketsController.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAgwKQAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T08:22:04.986Z"
+              "WhenOpened": "2025-03-12T07:43:35.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AirStore.csproj",
-              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\AirStore.csproj",
-              "RelativeDocumentMoniker": "AirStore\\AirStore.csproj",
-              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\AirStore.csproj",
-              "RelativeToolTip": "AirStore\\AirStore.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-11T08:20:30.086Z"
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Program.cs",
+              "RelativeDocumentMoniker": "AirStore\\Program.cs",
+              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Program.cs",
+              "RelativeToolTip": "AirStore\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T07:23:57.581Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250311081819_FirstMigration.cs",
-              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Migrations\\20250311081819_FirstMigration.cs",
-              "RelativeDocumentMoniker": "AirStore\\Migrations\\20250311081819_FirstMigration.cs",
-              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Migrations\\20250311081819_FirstMigration.cs",
-              "RelativeToolTip": "AirStore\\Migrations\\20250311081819_FirstMigration.cs",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\appsettings.json",
+              "RelativeDocumentMoniker": "AirStore\\appsettings.json",
+              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\appsettings.json",
+              "RelativeToolTip": "AirStore\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T07:24:01.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AirStore\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AirStore\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T07:14:25.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250312070226_12.cs",
+              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Migrations\\20250312070226_12.cs",
+              "RelativeDocumentMoniker": "AirStore\\Migrations\\20250312070226_12.cs",
+              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Migrations\\20250312070226_12.cs",
+              "RelativeToolTip": "AirStore\\Migrations\\20250312070226_12.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T08:18:19.708Z"
+              "WhenOpened": "2025-03-12T07:02:26.653Z",
+              "EditorCaption": ""
             }
           ]
         }

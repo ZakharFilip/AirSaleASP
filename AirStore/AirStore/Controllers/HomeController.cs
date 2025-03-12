@@ -13,12 +13,9 @@ namespace AirStore.Controllers
             _logger = logger;
         }
 
-        public string Index(string[] people)
+        public string Index(string name = "Bob", int age = 33)
         {
-            string result = "";
-            foreach (var person in people)
-                result = $"{result}{person}; ";
-            return result;
+            return $"Name: {name}  Age: {age}";
         }
 
         public IActionResult Privacy()
