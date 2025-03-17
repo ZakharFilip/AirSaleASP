@@ -1,21 +1,25 @@
-﻿using System.Diagnostics;
+﻿using AirStore.Data;
 using AirStore.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 
 namespace AirStore.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ApplicationDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public string Index(string name = "Bob", int age = 33)
+        public async Task<IActionResult> Index()
         {
-            return $"Name: {name}  Age: {age}";
+            
+            return View(await _context.SuperBuskets.ToListAsync());
+
         }
 
         public IActionResult Privacy()
