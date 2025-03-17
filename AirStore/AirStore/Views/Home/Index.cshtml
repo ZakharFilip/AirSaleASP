@@ -6,6 +6,17 @@
 
 <h1>Index</h1>
 
+@if (User.Identity.IsAuthenticated)
+{
+    <form asp-action="Logout" method="post">
+        <button type="submit" class="btn btn-link">Logout</button>
+    </form>
+}
+else
+{
+    <a asp-action="Login">Login</a>
+}
+
 <p>
     <a asp-action="Create">Create New</a>
 </p>
@@ -46,4 +57,3 @@
         }
     </tbody>
 </table>
-

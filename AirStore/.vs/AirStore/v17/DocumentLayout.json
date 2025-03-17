@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|solutionrelative:airstore\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|solutionrelative:airstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|solutionrelative:airstore\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|solutionrelative:airstore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|solutionrelative:airstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|solutionrelative:airstore\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E1D84A5-8184-47A0-A5B1-BE77430659F1}|AirStore\\AirStore.csproj|c:\\users\\10220468\\documents\\github\\airsaleasp\\airstore\\airstore\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,25 +43,90 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "AirStore\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "AirStore\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T09:36:03.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AirStore\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Models\\User.cs",
+              "RelativeToolTip": "AirStore\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T09:22:25.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "AirStore\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Models\\Role.cs",
+              "RelativeToolTip": "AirStore\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T09:22:09.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "AirStore\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "AirStore\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T09:18:42.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Program.cs",
+              "RelativeDocumentMoniker": "AirStore\\Program.cs",
+              "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Program.cs",
+              "RelativeToolTip": "AirStore\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T09:14:53.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "AirStore\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Controllers\\HomeController.cs",
               "RelativeToolTip": "AirStore\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAWwFAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T06:20:10.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "AirStore\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\10220468\\Documents\\GitHub\\AirSaleASP\\AirStore\\AirStore\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "AirStore\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwDoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-17T07:06:59.275Z",
               "EditorCaption": ""

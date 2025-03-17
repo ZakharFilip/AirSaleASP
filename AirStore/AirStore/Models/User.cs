@@ -11,11 +11,13 @@ namespace AirStore.Models
 
             [StringLength(50)]
             [Required]
-            public string? Login { get; set; }
+            public string? Email { get; set; }
 
-            [ForeignKey("Role")] 
+            [ForeignKey("Role")]
 
-            public int? IdRole { get; set; }
+        public string PasswordHash { get; set; }
+
+        public int? IdRole { get; set; }
 
             // Навигационное свойство для связи с Role
             public Role? Role { get; set; }
