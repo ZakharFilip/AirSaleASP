@@ -11,7 +11,8 @@ namespace AirStore.Data
         public DbSet<Role> Roles { get; set; }
 
         public DbSet<SuperBusket> SuperBuskets { get; set; }
-        public DbSet<ProdCharacter> ProdCharacters { get; set; }
+        public DbSet<ProdCharacter> ProdCharacters { get; set; }    
+
         public DbSet<Product> Products { get; set; }
         public DbSet<Characteristic> Characteristics { get; set; }
 

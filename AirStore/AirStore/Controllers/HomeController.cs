@@ -1,5 +1,6 @@
 ﻿using AirStore.Data;
 using AirStore.Models;
+using AspNetCoreGeneratedDocument;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
@@ -30,17 +31,11 @@ namespace AirStore.Controllers
             return View(superBuskets);
         }
 
-        public IActionResult Privacy()
+        [HttpGet]
+        public IActionResult Login()
         {
             return View();
         }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
-
 
         [HttpPost]
         public async Task<IActionResult> Login(string email, string password)
@@ -53,7 +48,8 @@ namespace AirStore.Controllers
             if (user == null || user.PasswordHash != password)
             {
                 ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-                return View();
+                //return RedirectToAction(nameof(Privacy));
+                return RedirectToAction("Index");
             }
 
             // Создаем claims для пользователя
@@ -70,16 +66,24 @@ namespace AirStore.Controllers
             // Сохраняем аутентификацию в cookies
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
 
-            return RedirectToAction("Index");
+            //return RedirectToAction("Index");
+            return RedirectToAction(nameof(Privacy));
+           
         }
 
         [HttpPost]
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Index");
+            //return RedirectToAction("Index");
+            return RedirectToAction(nameof(Privacy));
         }
 
 
+        public async Task<IActionResult> Privacy()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return View();
+        }
     }
 }
