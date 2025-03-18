@@ -4,6 +4,7 @@ using AirStore.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AirStore.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250318073526_nig1")]
+    partial class nig1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -149,9 +152,12 @@ namespace AirStore.Migrations
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("RoleIdRole")
+                        .HasColumnType("int");
+
                     b.HasKey("IdUser");
 
-                    b.HasIndex("IdRole");
+                    b.HasIndex("RoleIdRole");
 
                     b.ToTable("Users");
                 });
@@ -190,7 +196,7 @@ namespace AirStore.Migrations
                 {
                     b.HasOne("AirStore.Models.Role", "Role")
                         .WithMany("Users")
-                        .HasForeignKey("IdRole");
+                        .HasForeignKey("RoleIdRole");
 
                     b.Navigation("Role");
                 });
