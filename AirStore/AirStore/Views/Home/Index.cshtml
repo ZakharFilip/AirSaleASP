@@ -1,7 +1,7 @@
-﻿@model IEnumerable<AirStore.Models.SuperBusket>
+﻿@model IEnumerable<AirStore.Models.Product>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Каталог товаров";
 }
 
 <h1>Каталог товаров</h1>
@@ -18,20 +18,25 @@ else
 }
 
 <p>
-    <a asp-action="Create">Воссоздания </a>
+    <a asp-action="Create">Добавить товар</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Visibility)
-             
+                @Html.DisplayNameFor(model => model.IdProduct)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.User)
+                @Html.DisplayNameFor(model => model.Name)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Product)
+                @Html.DisplayNameFor(model => model.Diskription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImagePath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
             </th>
             <th></th>
         </tr>
@@ -41,18 +46,31 @@ else
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Visibility)
+                    @Html.DisplayFor(modelItem => item.IdProduct)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.User.IdUser)
+                    @Html.DisplayFor(modelItem => item.Name)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Product.IdProduct)
+                    @Html.DisplayFor(modelItem => item.Diskription)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.IdSuperBasket">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.IdSuperBasket">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.IdSuperBasket">Delete</a>
+                    @if (!string.IsNullOrEmpty(item.ImagePath))
+                    {
+                        <img src="@item.ImagePath" alt="Изображение товара" style="max-width: 100px; max-height: 100px;" />
+                    }
+                    else
+                    {
+                        <span>Нет изображения</span>
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdProduct">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdProduct">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdProduct">Delete</a>
                 </td>
             </tr>
         }

@@ -24,11 +24,13 @@ namespace AirStore.Controllers
         [Authorize] // Только для авторизованных пользователей
         public async Task<IActionResult> Index()
         {
-            var superBuskets = await _context.SuperBuskets
-                .Include(sb => sb.User)
-                .Include(sb => sb.Product)
-                .ToListAsync();
-            return View(superBuskets);
+            //var superBuskets = await _context.SuperBuskets
+            //    .Include(sb => sb.User)
+            //    .Include(sb => sb.Product)
+            //    .ToListAsync();
+            //return View(superBuskets);
+            var products = await _context.Products.ToListAsync();
+            return View(products);
         }
 
         [HttpGet]
