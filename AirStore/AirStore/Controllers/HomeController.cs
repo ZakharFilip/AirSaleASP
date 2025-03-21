@@ -66,8 +66,8 @@ namespace AirStore.Controllers
             // Сохраняем аутентификацию в cookies
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
 
-            //return RedirectToAction("Index");
-            return RedirectToAction(nameof(Privacy));
+            return RedirectToAction("Index");
+           // return RedirectToAction(nameof(Privacy));
            
         }
 
@@ -75,8 +75,8 @@ namespace AirStore.Controllers
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            //return RedirectToAction("Index");
-            return RedirectToAction(nameof(Privacy));
+            return RedirectToAction("Index");
+           // return RedirectToAction(nameof(Privacy));
         }
 
 

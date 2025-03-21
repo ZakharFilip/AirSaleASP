@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Каталог товаров</h1>
 
 @if (User.Identity.IsAuthenticated)
 {
@@ -18,13 +18,14 @@ else
 }
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Воссоздания </a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Visibility)
+             
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.User)

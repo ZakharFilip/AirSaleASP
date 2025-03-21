@@ -7,6 +7,12 @@ namespace AirStore.Models
         [Key]
         public int? IdProduct { get; set; }
 
+        public string? Name { get; set; }
+
+        public string? Diskription { get; set; }
+
+        public string? ImagePath { get; set; }
+
         public int? Price { get; set; }
 
         // Навигационное свойство для связи с ProdCharacter
