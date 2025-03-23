@@ -17,164 +17,165 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AirStore
 build_property.RootNamespace = AirStore
-build_property.ProjectDir = C:\Users\10220468\Documents\GitHub\AirSaleASP\AirStore\AirStore\
+build_property.ProjectDir = C:\Users\Zakhar\Documents\GitHub\AirSaleASP\AirStore\AirStore\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\10220468\Documents\GitHub\AirSaleASP\AirStore\AirStore
+build_property.MSBuildProjectDirectory = C:\Users\Zakhar\Documents\GitHub\AirSaleASP\AirStore\AirStore
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Characteristics/Create.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Characteristics/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcmFjdGVyaXN0aWNzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Characteristics/Delete.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Characteristics/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcmFjdGVyaXN0aWNzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Characteristics/Details.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Characteristics/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcmFjdGVyaXN0aWNzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Characteristics/Edit.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Characteristics/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcmFjdGVyaXN0aWNzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Characteristics/Index.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Characteristics/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcmFjdGVyaXN0aWNzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Home/Index.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Home/Login.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Home/Privacy.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/ProdCharacters/Create.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/ProdCharacters/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZENoYXJhY3RlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/ProdCharacters/Delete.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/ProdCharacters/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZENoYXJhY3RlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/ProdCharacters/Details.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/ProdCharacters/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZENoYXJhY3RlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/ProdCharacters/Edit.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/ProdCharacters/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZENoYXJhY3RlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/ProdCharacters/Index.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/ProdCharacters/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZENoYXJhY3RlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Products/Create.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Products/Delete.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Products/Details.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Products/Edit.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Products/Index.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Roles/Create.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Roles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Roles/Delete.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Roles/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Roles/Details.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Roles/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Roles/Edit.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Roles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Roles/Index.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Roles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Shared/Error.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/SuperBuskets/Create.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/SuperBuskets/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJCdXNrZXRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/SuperBuskets/Delete.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/SuperBuskets/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJCdXNrZXRzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/SuperBuskets/Details.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/SuperBuskets/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJCdXNrZXRzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/SuperBuskets/Edit.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/SuperBuskets/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJCdXNrZXRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/SuperBuskets/Index.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/SuperBuskets/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwZXJCdXNrZXRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Users/Create.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Users/Delete.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Users/Details.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Users/Edit.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Users/Index.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/_ViewImports.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/_ViewStart.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/10220468/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Shared/_Layout.cshtml]
+[C:/Users/Zakhar/Documents/GitHub/AirSaleASP/AirStore/AirStore/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-d3a3ad4m3v

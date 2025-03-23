@@ -121,6 +121,33 @@
             background-color: #007f63;
         }
 
+    .search-container {
+        margin-bottom: 20px;
+        display: flex;
+        gap: 10px;
+    }
+
+        .search-container input[type="text"] {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #009879;
+            border-radius: 5px;
+            flex-grow: 1;
+        }
+
+        .search-container button {
+            background-color: #009879;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .search-container button:hover {
+                background-color: #007f63;
+            }
         
     </style>
 
@@ -143,27 +170,26 @@ else
     <a asp-action="Login">Login</a>
 }
 
+<!-- Добавляем форму поиска -->
+<div class="search-container">
+    <form asp-action="Index" method="get">
+        <input type="text" name="searchString" placeholder="Введите название или описание..." value="@ViewBag.SearchString" />
+        <button type="submit">Поиск</button>
+    </form>
+</div>
+
 <p>
     <a asp-action="Create">Добавить товар</a>
 </p>
+
 <table class="table">
     <thead>
         <tr>
-           <th>
-                
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Diskription)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImagePath)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
+            <th></th>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <th>@Html.DisplayNameFor(model => model.Diskription)</th>
+            <th>@Html.DisplayNameFor(model => model.ImagePath)</th>
+            <th>@Html.DisplayNameFor(model => model.Price)</th>
             <th></th>
         </tr>
     </thead>
@@ -171,13 +197,8 @@ else
         @foreach (var item in Model)
         {
             <tr>
-               
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Diskription)
-                </td>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>@Html.DisplayFor(modelItem => item.Diskription)</td>
                 <td>
                     @if (!string.IsNullOrEmpty(item.ImagePath))
                     {
@@ -188,9 +209,7 @@ else
                         <span>Нет изображения</span>
                     }
                 </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Price)
-                </td>
+                <td>@Html.DisplayFor(modelItem => item.Price)</td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.IdProduct">Edit</a> |
                     <a asp-action="Details" asp-route-id="@item.IdProduct">Details</a> |

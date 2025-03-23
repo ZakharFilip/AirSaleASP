@@ -22,15 +22,25 @@ namespace AirStore.Controllers
         }
 
         [Authorize] // Только для авторизованных пользователей
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            //var superBuskets = await _context.SuperBuskets
-            //    .Include(sb => sb.User)
-            //    .Include(sb => sb.Product)
-            //    .ToListAsync();
-            //return View(superBuskets);
-            var products = await _context.Products.ToListAsync();
-            return View(products);
+            // Сохраняем строку поиска в ViewBag для отображения в поле ввода
+            ViewBag.SearchString = searchString;
+
+            // Получаем все продукты
+            var products = from p in _context.Products
+                           select p;
+
+            // Если строка поиска не пустая, фильтруем продукты
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                products = products.Where(p =>
+                    p.Name.Contains(searchString) ||
+                    (p.Diskription != null && p.Diskription.Contains(searchString)));
+            }
+
+            // Преобразуем в список и возвращаем в представление
+            return View(await products.ToListAsync());
         }
 
         [HttpGet]
