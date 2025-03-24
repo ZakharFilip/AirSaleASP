@@ -54,7 +54,7 @@ namespace AirStore.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdProduct,Price")] Product product)
+        public async Task<IActionResult> Create([Bind("IdProduct,Name,Diskription,ImagePath,Price")] Product product)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace AirStore.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int? id, [Bind("IdProduct,Price")] Product product)
+        public async Task<IActionResult> Edit(int? id, [Bind("IdProduct,Name,Diskription,ImagePath,Price")] Product product)
         {
             if (id != product.IdProduct)
             {

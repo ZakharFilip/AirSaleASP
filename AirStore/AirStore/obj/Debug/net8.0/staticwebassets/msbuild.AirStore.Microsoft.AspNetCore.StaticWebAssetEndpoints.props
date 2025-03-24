@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AirStore.aayjz2jvlo.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"aayjz2jvlo"},{"Name":"integrity","Value":"sha256-rpAu0e3pAxbqUnj827VrjAG3mh7IqZRh\u002BGkyMPNsu0c="},{"Name":"label","Value":"_content/AirStore/AirStore.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1126"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rpAu0e3pAxbqUnj827VrjAG3mh7IqZRh\u002BGkyMPNsu0c=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 07:30:32 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1126"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rpAu0e3pAxbqUnj827VrjAG3mh7IqZRh\u002BGkyMPNsu0c=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 13:05:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AirStore/AirStore.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AirStore.aayjz2jvlo.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rpAu0e3pAxbqUnj827VrjAG3mh7IqZRh\u002BGkyMPNsu0c="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1126"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rpAu0e3pAxbqUnj827VrjAG3mh7IqZRh\u002BGkyMPNsu0c=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Mar 2025 07:30:32 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1126"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rpAu0e3pAxbqUnj827VrjAG3mh7IqZRh\u002BGkyMPNsu0c=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Mar 2025 13:05:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AirStore/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>

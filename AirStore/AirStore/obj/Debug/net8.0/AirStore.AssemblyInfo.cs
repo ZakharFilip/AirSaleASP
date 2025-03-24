@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AirStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fa82ef530cb10ea1e255f44ba0907a7b8bda5ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1333472ca8592ae70fcec5a56dbda48ad347bcd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("AirStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AirStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

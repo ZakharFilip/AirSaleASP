@@ -786,3 +786,9 @@ C:\Users\Zakhar\Documents\GitHub\AirSaleASP\AirStore\AirStore\obj\Debug\net8.0\A
 C:\Users\Zakhar\Documents\GitHub\AirSaleASP\AirStore\AirStore\obj\Debug\net8.0\AirStore.genruntimeconfig.cache
 C:\Users\Zakhar\Documents\GitHub\AirSaleASP\AirStore\AirStore\obj\Debug\net8.0\ref\AirStore.dll
 C:\Users\10220468\Documents\GitHub\AirSaleASP\AirStore\AirStore\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\10220468\Documents\GitHub\AirSaleASP\AirStore\AirStore\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\10220468\Documents\GitHub\AirSaleASP\AirStore\AirStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\10220468\Documents\GitHub\AirSaleASP\AirStore\AirStore\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\10220468\Documents\GitHub\AirSaleASP\AirStore\AirStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\10220468\Documents\GitHub\AirSaleASP\AirStore\AirStore\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\10220468\Documents\GitHub\AirSaleASP\AirStore\AirStore\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
