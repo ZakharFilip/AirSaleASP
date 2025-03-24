@@ -1,11 +1,9 @@
 ﻿using AirStore.Data;
 using AirStore.Models;
-using AspNetCoreGeneratedDocument;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.CodeAnalysis.Scripting;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using System.Security.Claims;
@@ -21,17 +19,19 @@ namespace AirStore.Controllers
             _context = context;
         }
 
-        [Authorize] // Только для авторизованных пользователей
-        public async Task<IActionResult> Index(string searchString)
+        [Authorize]
+        public async Task<IActionResult> Index(string searchString, string sortOrder, int? minPrice, int? maxPrice, int?[]? characteristicIds)
         {
-            // Сохраняем строку поиска в ViewBag для отображения в поле ввода
             ViewBag.SearchString = searchString;
+            ViewBag.SortOrder = sortOrder;
+            ViewBag.MinPrice = minPrice;
+            ViewBag.MaxPrice = maxPrice;
+            ViewBag.SelectedCharacteristics = characteristicIds ?? Array.Empty<int?>();
+            ViewBag.Characteristics = await _context.Characteristics.ToListAsync();
 
-            // Получаем все продукты
             var products = from p in _context.Products
                            select p;
 
-            // Если строка поиска не пустая, фильтруем продукты
             if (!string.IsNullOrEmpty(searchString))
             {
                 products = products.Where(p =>
@@ -39,7 +39,42 @@ namespace AirStore.Controllers
                     (p.Diskription != null && p.Diskription.Contains(searchString)));
             }
 
-            // Преобразуем в список и возвращаем в представление
+            if (minPrice.HasValue)
+            {
+                products = products.Where(p => p.Price >= minPrice.Value);
+            }
+            if (maxPrice.HasValue)
+            {
+                products = products.Where(p => p.Price <= maxPrice.Value);
+            }
+
+            if (characteristicIds != null && characteristicIds.Length > 0)
+            {
+                products = products.Where(p =>
+                    _context.ProdCharacters
+                        .Where(pc => pc.IdProduct == p.IdProduct && characteristicIds.Contains(pc.IdCharacteristic.Value))
+                        .Any());
+            }
+
+            switch (sortOrder)
+            {
+                case "name_asc":
+                    products = products.OrderBy(p => p.Name);
+                    break;
+                case "name_desc":
+                    products = products.OrderByDescending(p => p.Name);
+                    break;
+                case "price_asc":
+                    products = products.OrderBy(p => p.Price);
+                    break;
+                case "price_desc":
+                    products = products.OrderByDescending(p => p.Price);
+                    break;
+                default:
+                    products = products.OrderBy(p => p.IdProduct);
+                    break;
+            }
+
             return View(await products.ToListAsync());
         }
 
@@ -56,15 +91,12 @@ namespace AirStore.Controllers
                 .Include(u => u.Role)
                 .FirstOrDefaultAsync(u => u.Email == email);
 
-            // Сравниваем пароль в чистом виде (без хэширования)
             if (user == null || user.PasswordHash != password)
             {
                 ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-                //return RedirectToAction(nameof(Privacy));
                 return RedirectToAction("Index");
             }
 
-            // Создаем claims для пользователя
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.NameIdentifier, user.IdUser.ToString()),
@@ -75,12 +107,9 @@ namespace AirStore.Controllers
             var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
             var principal = new ClaimsPrincipal(identity);
 
-            // Сохраняем аутентификацию в cookies
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
 
             return RedirectToAction("Index");
-           // return RedirectToAction(nameof(Privacy));
-           
         }
 
         [HttpPost]
@@ -88,9 +117,7 @@ namespace AirStore.Controllers
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Index");
-           // return RedirectToAction(nameof(Privacy));
         }
-
 
         public async Task<IActionResult> Privacy()
         {

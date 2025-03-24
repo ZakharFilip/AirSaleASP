@@ -148,13 +148,71 @@
             .search-container button:hover {
                 background-color: #007f63;
             }
-        
+
+
+
+    .sort-container {
+        margin-bottom: 20px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+        .sort-container select {
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #009879;
+            border-radius: 5px;
+            background-color: white;
+            cursor: pointer;
+
+            .filter-container {
+        margin-bottom: 20px;
+        padding: 15px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .filter-container h3 {
+        margin-top: 0;
+        color: #009879;
+    }
+
+    .filter-container label {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .filter-container input[type="number"] {
+        width: 100px;
+        padding: 5px;
+        border: 1px solid #009879;
+        border-radius: 5px;
+    }
+
+    .filter-container button {
+        background-color: #009879;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .filter-container button:hover {
+        background-color: #007f63;
+        }
     </style>
 
 @model IEnumerable<AirStore.Models.Product>
+@using AirStore.Models;
 
 @{
     ViewData["Title"] = "Каталог товаров";
+    var characteristics = (IEnumerable<Characteristic>)ViewBag.Characteristics ?? new List<Characteristic>();
+    var selectedCharacteristics = (int?[]?)ViewBag.SelectedCharacteristics ?? Array.Empty<int?>();
 }
 
 <h1>Каталог товаров</h1>
@@ -170,11 +228,51 @@ else
     <a asp-action="Login">Login</a>
 }
 
-<!-- Добавляем форму поиска -->
+<!-- Форма поиска -->
 <div class="search-container">
     <form asp-action="Index" method="get">
         <input type="text" name="searchString" placeholder="Введите название или описание..." value="@ViewBag.SearchString" />
         <button type="submit">Поиск</button>
+    </form>
+</div>
+
+<!-- Форма сортировки -->
+<div class="sort-container">
+    <form asp-action="Index" method="get">
+        <input type="hidden" name="searchString" value="@ViewBag.SearchString" />
+        <select name="sortOrder" onchange="this.form.submit()">
+            <option value="">Выберите сортировку</option>
+            <option value="name_asc" selected="@(ViewBag.SortOrder == "name_asc")">Название (А-Я)</option>
+            <option value="name_desc" selected="@(ViewBag.SortOrder == "name_desc")">Название (Я-А)</option>
+            <option value="price_asc" selected="@(ViewBag.SortOrder == "price_asc")">Цена (по возрастанию)</option>
+            <option value="price_desc" selected="@(ViewBag.SortOrder == "price_desc")">Цена (по убыванию)</option>
+        </select>
+    </form>
+</div>
+
+<!-- Форма фильтрации -->
+<div class="filter-container">
+    <form asp-action="Index" method="get">
+        <input type="hidden" name="searchString" value="@ViewBag.SearchString" />
+        <input type="hidden" name="sortOrder" value="@ViewBag.SortOrder" />
+        <h3>Фильтры</h3>
+        <div>
+            <label>Цена:</label>
+            <input type="number" name="minPrice" min="0" value="@ViewBag.MinPrice" placeholder="От" />
+            <input type="number" name="maxPrice" min="0" value="@ViewBag.MaxPrice" placeholder="До" />
+        </div>
+        <div>
+            <label>Характеристики:</label>
+            @foreach (var characteristic in characteristics)
+            {
+                <label>
+                    <input type="checkbox" name="characteristicIds" value="@characteristic.IdCharacteristic"
+                           checked="@(selectedCharacteristics.Contains(characteristic.IdCharacteristic))" />
+                    @characteristic.CharName
+                </label>
+            }
+        </div>
+        <button type="submit">Применить фильтр</button>
     </form>
 </div>
 

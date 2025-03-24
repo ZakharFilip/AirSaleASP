@@ -785,3 +785,4 @@ C:\Users\Zakhar\Documents\GitHub\AirSaleASP\AirStore\AirStore\obj\Debug\net8.0\r
 C:\Users\Zakhar\Documents\GitHub\AirSaleASP\AirStore\AirStore\obj\Debug\net8.0\AirStore.pdb
 C:\Users\Zakhar\Documents\GitHub\AirSaleASP\AirStore\AirStore\obj\Debug\net8.0\AirStore.genruntimeconfig.cache
 C:\Users\Zakhar\Documents\GitHub\AirSaleASP\AirStore\AirStore\obj\Debug\net8.0\ref\AirStore.dll
+C:\Users\10220468\Documents\GitHub\AirSaleASP\AirStore\AirStore\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
